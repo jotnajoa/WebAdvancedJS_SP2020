@@ -1,0 +1,82 @@
+@import 'https://fonts.googleapis.com/css?family=Work+Sans:300,400,700';
+
+body {
+	background-color: indigo;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+}
+
+body, a{
+	margin: 0;
+	color: white;
+}
+.clear {
+	clear: both;
+}
+
+.items{
+	width: calc(100% / 6);
+	height: calc(100vw / 6);
+	float: left;
+}
+/* FIXED HEADER */
+#mobile{
+	display:none;
+}
+
+/* CONTAINER */
+
+
+/* COLUMNS */
+
+
+/* GRID */
+#item1 {background: #37BC9B;}
+#item2 {background: #DA4453;}
+#item3 {background: #F6BB42;}
+#item4 {background: #3BAFDA;}
+#item5 {background: #4A89DC;}
+#item6 {background: #E9573F;}
+#item7 {background: #434A54;}
+#item8 {background: #D770AD;}
+#item9 {background: #8CC152;}
+#item10 {background: #967ADC;}
+#item11 {background: #E6E9ED; color: #333;}
+#item12 {background: #AAB2BD; color: #333;}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:500px) and (max-height:600px){
+	section p{
+		width:calc (70vw/3);
+	}
+	body{
+		background-color: #333333;
+	}
+}
+
+@media screen and (min-device-width:500px) and (orientation:portrait ){
+	.body{
+		background-color: rgb(231,191,10);
+		font-size:2.5em;
+	}
+}
+
+@media screen and (max-width:980px){
+	body {
+	background-color: rgb(0, 255, 64);
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 200;
+	font-size: 1em;	
+	}
+	.items{
+		width: calc(100% / 1;
+		height: calc(100vw / 1);
+		float: left;
+	}
+	
+}
+
+
