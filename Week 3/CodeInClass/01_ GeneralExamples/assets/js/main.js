@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+console.log("JS is connected");
+=======
 console.log("JS is connected");
 
 // document.getElementById("device").innerHTML = window.navigator.userAgent;
@@ -14,3 +17,4 @@ if(myDevice.indexOf("Macintosh")>-1){
 
     window.location.replace("assets/html/desktop.html");
 }
+>>>>>>> bf169a38aeebc5389c0e870754c1e1b9220a3a04

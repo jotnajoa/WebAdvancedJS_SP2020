@@ -7,10 +7,29 @@
 </head>
 
 <body>
+<<<<<<< HEAD
+	<h1 id="device"></h1>
+	<script>
+		// document.getElementById("device").innerHTML = window.navigator.userAgent;
+		let myDevice = window.navigator.userAgent;
+		document.getElementById("device").innerHTML= myDevice;
+		if(myDevice.indexOf("iPhone")>-1){
+			window.location.replace("./assets/html/mobile.html");
+		};
+
+		if(myDevice.indexOf("Macintosh")>-1){
+			window.location.replace("./assets/html/desktop.html");
+		}
+
+	</script>
+
+	
+=======
 	
 	<h1 id="device"></h1>
 
 
+>>>>>>> bf169a38aeebc5389c0e870754c1e1b9220a3a04
 	<script src="assets/js/main.js"></script>
 </body>
 </html>
